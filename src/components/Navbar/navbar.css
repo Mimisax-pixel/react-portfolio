@@ -1,0 +1,56 @@
+
+.navigation{
+    /* background : rgb(30, 30, 30); */
+    color: whitesmoke;
+    background-color: rgb(22, 8, 22);
+    height: 5rem;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+
+
+.logo{
+    height: 100px;
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+
+.deskTopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.deskTopMenuListItem:hover{
+    color: #cd9035;
+    border-bottom: 3px solid #cd9035;
+}
+
+.deskTopMenuBtn{
+    background-color:#cd9035 ;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 700;
+    animation-name: shrink;
+   animation-duration: 2s;
+}
+
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+

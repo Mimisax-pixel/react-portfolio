@@ -1,0 +1,79 @@
+#skills{
+   overflow: hidden;
+   width: 100%;
+   max-width: 75rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 0 auto;
+   padding: 4rem 4rem;
+   /* background-color: #cd9035; */
+   color: #fff;
+   animation-name: shrink;
+   animation-duration: 2s;
+}
+
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+.heading{
+    color: #cd9035;
+    font-size: 3rem;
+}
+
+.exp{
+    color: #cd9035;
+}
+
+.And{
+    color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding:1rem 1rem;
+    
+}
+
+.content-text{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px 1px;
+    /* background-color: #cd9035; */
+    color: white;
+}
+
+.text-content{
+    display: flex;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 2rem 2rem;
+    
+}
+
+/* @media (max-width:480px){
+    .heading{
+        width: 70%; 
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* padding-right: 7rem; */
+        /* gap: 10px; */
+    /* } */
